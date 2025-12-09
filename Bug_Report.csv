@@ -1,0 +1,16 @@
+Defect ID,Title,Severity,Module,Description
+DF001,Checkout button not responding,High,Checkout,Button does not redirect to payment.
+DF002,Payment page freeze,Critical,Payment,Page stuck at loader.
+DF003,COD option for invalid PIN,Medium,Payment,COD shown for non-serviceable PIN.
+DF004,Coupon not applied,High,Cart,Discount not reflected.
+DF005,Incorrect tax calculation,High,Checkout,Tax amount mismatch.
+DF006,Cart total not updated,High,Cart,Total doesn't change after quantity update.
+DF007,Product image missing,Medium,PDP,Image fails to load.
+DF008,Add to Cart adds two items,Critical,Cart,Double quantity added.
+DF009,Removing item clears entire cart,Critical,Cart,All cart items removed.
+DF010,Sorting not working,Medium,Search,Low-to-high sorting incorrect.
+DF011,Valid login rejected,Medium,Login,Incorrect error shown for valid credentials.
+DF012,Invalid email accepted,High,Registration,Email format not validated.
+DF013,Password masking missing,Low,Login,Password is visible while typing.
+DF014,Order confirmation email missing,Medium,Orders,Customer not receiving confirmation email.
+DF015,Order not listed in history,High,Orders,Order missing after successful payment.
